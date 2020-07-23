@@ -33,9 +33,13 @@ const HomeScreen = (props) => {
         onPress={() => props.navigation.navigate('ReadjustColorV2')}
         title='Go To Exercise 7 (Readjust Color Screen With Reducer)'
       />
-       <Button
+      <Button
         onPress={() => props.navigation.navigate('CounterV2')}
         title='Go To Exercise 8 (Counter Screen With Reducer)'
+      />
+      <Button
+        onPress={() => props.navigation.navigate('Text')}
+        title='Go To Exercise 9 (Text Screen)'
       />
     </View >
   );

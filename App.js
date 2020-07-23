@@ -9,6 +9,7 @@ import ColorScreen from './src/components/screens/ColorScreen';
 import ReadjustColorScreen from './src/components/screens/ReadjustColorScreen';
 import ReadjustColorScreenWithReducer from './src/components/screens/ReadjustColorScreenWithReducer';
 import CounterScreenWithReducer from './src/components/screens/CounterScreenWithReducer';
+import TextScreen from './src/components/screens/TextScreen';
 
 const navigator = createStackNavigator(
   {
@@ -20,7 +21,8 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     ReadjustColor: ReadjustColorScreen,
     ReadjustColorV2: ReadjustColorScreenWithReducer,
-    CounterV2: CounterScreenWithReducer
+    CounterV2: CounterScreenWithReducer,
+    Text: TextScreen
   },
   {
     initialRouteName: "Home",
